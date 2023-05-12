@@ -65,7 +65,7 @@ class Application:
         self.window.Close()
 
     def aws_connect(self, client_id):
-        ENDPOINT = "a39dh3uay46k89-ats.iot.eu-central-1.amazonaws.com"
+        ENDPOINT = "a39dh3uay4***************.amazonaws.com"
         PATH_TO_CERT = "certificate/DeviceCertificate.crt"
         PATH_TO_KEY = "certificate/Private.key"
         PATH_TO_ROOT = "certificate/RootCA.pem"
